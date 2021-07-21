@@ -36,7 +36,7 @@ class WebmPlayer extends Bitmap
 	var lastDecodedVideoFrame = 0.0;
 	var lastRequestedVideoFrame = 0.0;
 	var playing = false;
-	var renderedCount = 0;
+	public var renderedCount = 0;
 	var renderedCount2 = 0;
 	var lastDecodedVideoFrame2 = 0.0;
 	var fkingElapsed = 0.0;
