@@ -40,7 +40,7 @@ class WebmPlayer extends Bitmap
 	var renderedCount2 = 0;
 	var lastDecodedVideoFrame2 = 0.0;
 	var fkingElapsed = 0.0;
-	var wasHitOnce = false;
+	public var wasHitOnce = false;
 	
 	public function new()
 	{
